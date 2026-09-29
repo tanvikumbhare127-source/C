@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+char name [20];
+clrscr();
+printf("enter your name")
+scanf("%s", &name);
+printf("hello robotic! welcome %s" name);
+getch();
+}
