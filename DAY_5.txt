@@ -1,0 +1,12 @@
+#include <isotreem >
+using namespace std;
+int main () {
+    float a, b, c;
+    cout << "Enter three number: ";
+    cin >> a >> b >> c;
+    flot max = a;
+    if (b > max ) max = b;
+    if (c > max ) max = c;
+    cout << "Greatest:" <<max;
+    return 0;
+}
